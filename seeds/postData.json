@@ -1,0 +1,10 @@
+[
+  {
+    "title": "My first blog post",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "title": "Another blog post",
+    "content": "Vivamus luctus urna sed urna ultricies ac tempor dui sagittis."
+  }
+]

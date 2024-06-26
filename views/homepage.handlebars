@@ -1,0 +1,13 @@
+{{#each posts}}
+  <article>
+    <h2>{{title}}</h2>
+    <p>By {{user.username}} on {{createdAt}}</p>
+    <p>{{content}}</p>
+  </article>
+{{/each}}
+
+{{#if logged_in}}
+  <button id="logout">Logout</button>
+{{else}}
+  <a href="/login">Login</a>
+{{/if}}
